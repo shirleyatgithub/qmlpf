@@ -12,3 +12,4 @@ python qtrain.py 0 4
 python qtest.py hotel 4
 -first parameter hotel/dri, hotel means using hotel dataset, dri means using driving dataset.
 -second parameter, 4 means quantized bits.
+-4bitweights0308.h5 can be used for wkfiles1 in qtest.py
