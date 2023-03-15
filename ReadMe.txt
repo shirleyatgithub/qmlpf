@@ -7,7 +7,7 @@ testfilepath = 'D://qmlpfpys-s//2xTrainingDataDND21test//'
 --for test the latest model
 python qtestaccelerate.py dri 62000
 --dri, application, could be 'hotel'
---62000, number of batches for testing dvs event records, could use any number < 62000, unzip the quantized-mlpf-runrocdata.rar and put the two npy files under the same folder with the qtestaccelerate.py.
+--62000, number of batches for testing dvs event records, could use any number < 62000, unzip the quantized-mlpf-runrocdata.rar and driytrue.rar and put the npy files under the same folder with the qtestaccelerate.py.
 
 
 python qtrain.py 0 4
